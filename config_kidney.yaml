@@ -1,0 +1,22 @@
+data_dir: data
+write_long_parquet: true
+
+datasets:
+  - name: kidney768
+    matrix_csv: 'C:\Users\au520563\OneDrive - Aarhus universitet\DATA\20251021\scp_browser_kidney\data\KIDNEY_768cells.csv'
+    cell_metadata_csv: 'C:\Users\au520563\OneDrive - Aarhus universitet\DATA\20251021\scp_browser_kidney\data\KIDNEY_768cells_CellMetadata_BEFORE.csv'
+    umap_csv: 'C:\Users\au520563\OneDrive - Aarhus universitet\DATA\20251021\scp_browser_kidney\data\KIDNEY_768cells_UMAP_BEFORE.csv'
+    detection_rule: auto_quantile           # NEW
+    detection_quantile: 0.20                # start at 0.20 (20th percentile per cell)
+    detection_quantile_scope: cell          # per-cell threshold (most robust)
+
+id_labels:
+  id1: "UniProt accession"
+  id2: "Gene symbol"
+  id3: "Protein description"
+  
+# These are the ACTUAL column names in your parquet, with spaces
+id_columns:
+  id1: "Uniprot accession"
+  id2: "Gene symbol"
+  id3: "Protein description"

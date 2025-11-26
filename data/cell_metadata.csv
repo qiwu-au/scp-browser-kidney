@@ -1,0 +1,713 @@
+cell_id,celltype,dataset
+[1] Kidney_1cell_001.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[2] Kidney_1cell_002.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[3] Kidney_1cell_003.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[4] Kidney_1cell_004.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[5] Kidney_1cell_005.htrms.PG.Quantity,Descending vasa recta,kidney768
+[6] Kidney_1cell_006.htrms.PG.Quantity,Descending vasa recta,kidney768
+[7] Kidney_1cell_007.htrms.PG.Quantity,Descending vasa recta,kidney768
+[8] Kidney_1cell_008.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[9] Kidney_1cell_009.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[10] Kidney_1cell_010.htrms.PG.Quantity,CNT,kidney768
+[11] Kidney_1cell_011.htrms.PG.Quantity,Descending vasa recta,kidney768
+[12] Kidney_1cell_012.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[14] Kidney_1cell_014.htrms.PG.Quantity,Juxtaglomerular cells,kidney768
+[15] Kidney_1cell_015.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[16] Kidney_1cell_016.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[17] Kidney_1cell_017.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[18] Kidney_1cell_018.htrms.PG.Quantity,Descending vasa recta,kidney768
+[19] Kidney_1cell_019.htrms.PG.Quantity,Descending vasa recta,kidney768
+[20] Kidney_1cell_020.htrms.PG.Quantity,Descending vasa recta,kidney768
+[21] Kidney_1cell_021.htrms.PG.Quantity,Unknown,kidney768
+[22] Kidney_1cell_022.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[24] Kidney_1cell_024.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[25] Kidney_1cell_025.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[27] Kidney_1cell_027.htrms.PG.Quantity,Descending vasa recta,kidney768
+[28] Kidney_1cell_028.htrms.PG.Quantity,Descending vasa recta,kidney768
+[29] Kidney_1cell_029.htrms.PG.Quantity,Descending vasa recta,kidney768
+[30] Kidney_1cell_030.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[31] Kidney_1cell_031.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[32] Kidney_1cell_032.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[33] Kidney_1cell_033.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[34] Kidney_1cell_034.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[35] Kidney_1cell_035.htrms.PG.Quantity,Descending vasa recta,kidney768
+[36] Kidney_1cell_036.htrms.PG.Quantity,CNT,kidney768
+[37] Kidney_1cell_037.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[38] Kidney_1cell_038.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[39] Kidney_1cell_039.htrms.PG.Quantity,Descending vasa recta,kidney768
+[40] Kidney_1cell_040.htrms.PG.Quantity,DCT2,kidney768
+[41] Kidney_1cell_041.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[42] Kidney_1cell_042.htrms.PG.Quantity,Descending vasa recta,kidney768
+[43] Kidney_1cell_043.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[44] Kidney_1cell_044.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[45] Kidney_1cell_045.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[46] Kidney_1cell_046.htrms.PG.Quantity,Juxtaglomerular cells,kidney768
+[47] Kidney_1cell_047.htrms.PG.Quantity,Descending vasa recta,kidney768
+[48] Kidney_1cell_048.htrms.PG.Quantity,Descending vasa recta,kidney768
+[49] Kidney_1cell_049.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[50] Kidney_1cell_050.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[51] Kidney_1cell_051.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[52] Kidney_1cell_052.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[53] Kidney_1cell_053.htrms.PG.Quantity,CNT,kidney768
+[54] Kidney_1cell_054.htrms.PG.Quantity,Descending vasa recta,kidney768
+[55] Kidney_1cell_055.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[56] Kidney_1cell_056.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[57] Kidney_1cell_057.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[58] Kidney_1cell_058.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[59] Kidney_1cell_059.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[60] Kidney_1cell_060.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[61] Kidney_1cell_061.htrms.PG.Quantity,CNT,kidney768
+[63] Kidney_1cell_063.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[66] Kidney_1cell_066.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[67] Kidney_1cell_067.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[69] Kidney_1cell_069.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[70] Kidney_1cell_070.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[71] Kidney_1cell_071.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[72] Kidney_1cell_072.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[73] Kidney_1cell_073.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[74] Kidney_1cell_074.htrms.PG.Quantity,CNT,kidney768
+[75] Kidney_1cell_075.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[76] Kidney_1cell_076.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[77] Kidney_1cell_077.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[78] Kidney_1cell_078.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[79] Kidney_1cell_079.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[80] Kidney_1cell_080.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[81] Kidney_1cell_081.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[82] Kidney_1cell_082.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[83] Kidney_1cell_083.htrms.PG.Quantity,Descending vasa recta,kidney768
+[84] Kidney_1cell_084.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[85] Kidney_1cell_085.htrms.PG.Quantity,DCT2,kidney768
+[86] Kidney_1cell_086.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[87] Kidney_1cell_087.htrms.PG.Quantity,CNT,kidney768
+[88] Kidney_1cell_088.htrms.PG.Quantity,Unknown,kidney768
+[89] Kidney_1cell_089.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[90] Kidney_1cell_090.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[91] Kidney_1cell_091.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[92] Kidney_1cell_092.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[94] Kidney_1cell_094.htrms.PG.Quantity,Descending vasa recta,kidney768
+[96] Kidney_1cell_096.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[97] Kidney_1cell_097.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[98] Kidney_1cell_098.htrms.PG.Quantity,Descending vasa recta,kidney768
+[99] Kidney_1cell_099.htrms.PG.Quantity,Macula densa,kidney768
+[100] Kidney_1cell_100.htrms.PG.Quantity,Juxtaglomerular cells,kidney768
+[101] Kidney_1cell_101.htrms.PG.Quantity,Juxtaglomerular cells,kidney768
+[102] Kidney_1cell_102.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[103] Kidney_1cell_103.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[104] Kidney_1cell_104.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[105] Kidney_1cell_105.htrms.PG.Quantity,DCT2,kidney768
+[106] Kidney_1cell_106.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[107] Kidney_1cell_107.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[108] Kidney_1cell_108.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[109] Kidney_1cell_109.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[110] Kidney_1cell_110.htrms.PG.Quantity,CNT,kidney768
+[111] Kidney_1cell_111.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[112] Kidney_1cell_112.htrms.PG.Quantity,CNT,kidney768
+[113] Kidney_1cell_113.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[114] Kidney_1cell_114.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[115] Kidney_1cell_115.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[116] Kidney_1cell_116.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[117] Kidney_1cell_117.htrms.PG.Quantity,CNT,kidney768
+[118] Kidney_1cell_118.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[119] Kidney_1cell_119.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[120] Kidney_1cell_120.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[121] Kidney_1cell_121.htrms.PG.Quantity,CNT,kidney768
+[122] Kidney_1cell_122.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[123] Kidney_1cell_123.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[124] Kidney_1cell_124.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[125] Kidney_1cell_125.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[126] Kidney_1cell_126.htrms.PG.Quantity,DCT2,kidney768
+[127] Kidney_1cell_127.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[128] Kidney_1cell_128.htrms.PG.Quantity,DCT2,kidney768
+[129] Kidney_1cell_129.htrms.PG.Quantity,Juxtaglomerular cells,kidney768
+[130] Kidney_1cell_130.htrms.PG.Quantity,Descending vasa recta,kidney768
+[131] Kidney_1cell_131.htrms.PG.Quantity,Descending vasa recta,kidney768
+[132] Kidney_1cell_132.htrms.PG.Quantity,Unknown,kidney768
+[134] Kidney_1cell_134.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[135] Kidney_1cell_135.htrms.PG.Quantity,Descending vasa recta,kidney768
+[136] Kidney_1cell_136.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[137] Kidney_1cell_137.htrms.PG.Quantity,Descending vasa recta,kidney768
+[138] Kidney_1cell_138.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[139] Kidney_1cell_139.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[140] Kidney_1cell_140.htrms.PG.Quantity,Descending vasa recta,kidney768
+[141] Kidney_1cell_141.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[142] Kidney_1cell_142.htrms.PG.Quantity,Descending vasa recta,kidney768
+[143] Kidney_1cell_143.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[144] Kidney_1cell_144.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[145] Kidney_1cell_145.htrms.PG.Quantity,CNT,kidney768
+[146] Kidney_1cell_146.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[147] Kidney_1cell_147.htrms.PG.Quantity,Descending vasa recta,kidney768
+[148] Kidney_1cell_148.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[149] Kidney_1cell_149.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[151] Kidney_1cell_151.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[152] Kidney_1cell_152.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[153] Kidney_1cell_153.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[154] Kidney_1cell_154.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[155] Kidney_1cell_155.htrms.PG.Quantity,Unknown,kidney768
+[158] Kidney_1cell_158.htrms.PG.Quantity,Unknown,kidney768
+[159] Kidney_1cell_159.htrms.PG.Quantity,Descending vasa recta,kidney768
+[160] Kidney_1cell_160.htrms.PG.Quantity,CNT,kidney768
+[161] Kidney_1cell_161.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[162] Kidney_1cell_162.htrms.PG.Quantity,Descending vasa recta,kidney768
+[163] Kidney_1cell_163.htrms.PG.Quantity,Unknown,kidney768
+[164] Kidney_1cell_164.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[165] Kidney_1cell_165.htrms.PG.Quantity,Descending vasa recta,kidney768
+[166] Kidney_1cell_166.htrms.PG.Quantity,Juxtaglomerular cells,kidney768
+[167] Kidney_1cell_167.htrms.PG.Quantity,Descending vasa recta,kidney768
+[169] Kidney_1cell_169.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[170] Kidney_1cell_170.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[171] Kidney_1cell_171.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[172] Kidney_1cell_172.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[173] Kidney_1cell_173.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[174] Kidney_1cell_174.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[175] Kidney_1cell_175.htrms.PG.Quantity,Juxtaglomerular cells,kidney768
+[176] Kidney_1cell_176.htrms.PG.Quantity,Unknown,kidney768
+[177] Kidney_1cell_177.htrms.PG.Quantity,Descending vasa recta,kidney768
+[178] Kidney_1cell_178.htrms.PG.Quantity,CNT,kidney768
+[179] Kidney_1cell_179.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[180] Kidney_1cell_180.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[181] Kidney_1cell_181.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[182] Kidney_1cell_182.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[183] Kidney_1cell_183.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[184] Kidney_1cell_184.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[185] Kidney_1cell_185.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[186] Kidney_1cell_186.htrms.PG.Quantity,Juxtaglomerular cells,kidney768
+[187] Kidney_1cell_187.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[189] Kidney_1cell_189.htrms.PG.Quantity,Descending vasa recta,kidney768
+[190] Kidney_1cell_190.htrms.PG.Quantity,Descending vasa recta,kidney768
+[191] Kidney_1cell_191.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[192] Kidney_1cell_192.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[194] Kidney_1cell_194.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[195] Kidney_1cell_195.htrms.PG.Quantity,Macula densa,kidney768
+[196] Kidney_1cell_196.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[197] Kidney_1cell_197.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[198] Kidney_1cell_198.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[199] Kidney_1cell_199.htrms.PG.Quantity,Unknown,kidney768
+[200] Kidney_1cell_200.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[201] Kidney_1cell_201.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[202] Kidney_1cell_202.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[203] Kidney_1cell_203.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[204] Kidney_1cell_204.htrms.PG.Quantity,DCT2,kidney768
+[205] Kidney_1cell_205.htrms.PG.Quantity,Macula densa,kidney768
+[208] Kidney_1cell_208.htrms.PG.Quantity,Descending vasa recta,kidney768
+[209] Kidney_1cell_209.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[210] Kidney_1cell_210.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[211] Kidney_1cell_211.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[212] Kidney_1cell_212.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[213] Kidney_1cell_213.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[217] Kidney_1cell_217.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[220] Kidney_1cell_220.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[221] Kidney_1cell_221.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[222] Kidney_1cell_222.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[223] Kidney_1cell_223.htrms.PG.Quantity,CNT,kidney768
+[224] Kidney_1cell_224.htrms.PG.Quantity,CNT,kidney768
+[225] Kidney_1cell_225.htrms.PG.Quantity,Juxtaglomerular cells,kidney768
+[226] Kidney_1cell_226.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[227] Kidney_1cell_227.htrms.PG.Quantity,Juxtaglomerular cells,kidney768
+[228] Kidney_1cell_228.htrms.PG.Quantity,Unknown,kidney768
+[229] Kidney_1cell_229.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[230] Kidney_1cell_230.htrms.PG.Quantity,DCT2,kidney768
+[231] Kidney_1cell_231.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[232] Kidney_1cell_232.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[233] Kidney_1cell_233.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[234] Kidney_1cell_234.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[235] Kidney_1cell_235.htrms.PG.Quantity,Descending vasa recta,kidney768
+[236] Kidney_1cell_236.htrms.PG.Quantity,Descending vasa recta,kidney768
+[237] Kidney_1cell_237.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[238] Kidney_1cell_238.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[239] Kidney_1cell_239.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[240] Kidney_1cell_240.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[241] Kidney_1cell_241.htrms.PG.Quantity,CNT,kidney768
+[242] Kidney_1cell_242.htrms.PG.Quantity,CNT,kidney768
+[243] Kidney_1cell_243.htrms.PG.Quantity,CNT,kidney768
+[244] Kidney_1cell_244.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[245] Kidney_1cell_245.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[246] Kidney_1cell_246.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[247] Kidney_1cell_247.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[248] Kidney_1cell_248.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[249] Kidney_1cell_249.htrms.PG.Quantity,CNT,kidney768
+[250] Kidney_1cell_250.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[251] Kidney_1cell_251.htrms.PG.Quantity,Descending vasa recta,kidney768
+[252] Kidney_1cell_252.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[253] Kidney_1cell_253.htrms.PG.Quantity,Descending vasa recta,kidney768
+[254] Kidney_1cell_254.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[255] Kidney_1cell_255.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[256] Kidney_1cell_256.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[257] Kidney_1cell_257.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[258] Kidney_1cell_258.htrms.PG.Quantity,Macula densa,kidney768
+[259] Kidney_1cell_259.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[260] Kidney_1cell_260.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[261] Kidney_1cell_261.htrms.PG.Quantity,Descending vasa recta,kidney768
+[262] Kidney_1cell_262.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[263] Kidney_1cell_263.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[264] Kidney_1cell_264.htrms.PG.Quantity,Descending vasa recta,kidney768
+[265] Kidney_1cell_265.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[266] Kidney_1cell_266.htrms.PG.Quantity,Descending vasa recta,kidney768
+[267] Kidney_1cell_267.htrms.PG.Quantity,CNT,kidney768
+[268] Kidney_1cell_268.htrms.PG.Quantity,Descending vasa recta,kidney768
+[269] Kidney_1cell_269.htrms.PG.Quantity,CNT,kidney768
+[270] Kidney_1cell_270.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[271] Kidney_1cell_271.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[273] Kidney_1cell_273.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[274] Kidney_1cell_274.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[275] Kidney_1cell_275.htrms.PG.Quantity,Descending vasa recta,kidney768
+[276] Kidney_1cell_276.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[277] Kidney_1cell_277.htrms.PG.Quantity,CNT,kidney768
+[278] Kidney_1cell_278.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[279] Kidney_1cell_279.htrms.PG.Quantity,CNT,kidney768
+[280] Kidney_1cell_280.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[281] Kidney_1cell_281.htrms.PG.Quantity,Descending vasa recta,kidney768
+[282] Kidney_1cell_282.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[283] Kidney_1cell_283.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[284] Kidney_1cell_284.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[286] Kidney_1cell_286.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[287] Kidney_1cell_287.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[288] Kidney_1cell_288.htrms.PG.Quantity,Unknown,kidney768
+[289] Kidney_1cell_289.htrms.PG.Quantity,Juxtaglomerular cells,kidney768
+[290] Kidney_1cell_290.htrms.PG.Quantity,CNT,kidney768
+[291] Kidney_1cell_291.htrms.PG.Quantity,CD-intercalated cells (type B),kidney768
+[292] Kidney_1cell_292.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[293] Kidney_1cell_293.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[294] Kidney_1cell_294.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[295] Kidney_1cell_295.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[296] Kidney_1cell_296.htrms.PG.Quantity,CNT,kidney768
+[297] Kidney_1cell_297.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[298] Kidney_1cell_298.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[299] Kidney_1cell_299.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[300] Kidney_1cell_300.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[301] Kidney_1cell_301.htrms.PG.Quantity,CNT,kidney768
+[302] Kidney_1cell_302.htrms.PG.Quantity,CNT,kidney768
+[303] Kidney_1cell_303.htrms.PG.Quantity,Descending vasa recta,kidney768
+[304] Kidney_1cell_304.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[306] Kidney_1cell_306.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[307] Kidney_1cell_307.htrms.PG.Quantity,Descending vasa recta,kidney768
+[308] Kidney_1cell_308.htrms.PG.Quantity,Descending vasa recta,kidney768
+[309] Kidney_1cell_309.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[310] Kidney_1cell_310.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[312] Kidney_1cell_312.htrms.PG.Quantity,Macula densa,kidney768
+[313] Kidney_1cell_313.htrms.PG.Quantity,CNT,kidney768
+[314] Kidney_1cell_314.htrms.PG.Quantity,Descending vasa recta,kidney768
+[315] Kidney_1cell_315.htrms.PG.Quantity,Unknown,kidney768
+[316] Kidney_1cell_316.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[317] Kidney_1cell_317.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[318] Kidney_1cell_318.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[319] Kidney_1cell_319.htrms.PG.Quantity,CNT,kidney768
+[320] Kidney_1cell_320.htrms.PG.Quantity,CNT,kidney768
+[321] Kidney_1cell_321.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[322] Kidney_1cell_322.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[323] Kidney_1cell_323.htrms.PG.Quantity,Descending vasa recta,kidney768
+[324] Kidney_1cell_324.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[325] Kidney_1cell_325.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[326] Kidney_1cell_326.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[327] Kidney_1cell_327.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[328] Kidney_1cell_328.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[329] Kidney_1cell_329.htrms.PG.Quantity,Unknown,kidney768
+[330] Kidney_1cell_330.htrms.PG.Quantity,Descending vasa recta,kidney768
+[331] Kidney_1cell_331.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[332] Kidney_1cell_332.htrms.PG.Quantity,Descending vasa recta,kidney768
+[333] Kidney_1cell_333.htrms.PG.Quantity,CNT,kidney768
+[334] Kidney_1cell_334.htrms.PG.Quantity,Descending vasa recta,kidney768
+[335] Kidney_1cell_335.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[336] Kidney_1cell_336.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[337] Kidney_1cell_337.htrms.PG.Quantity,CNT,kidney768
+[338] Kidney_1cell_338.htrms.PG.Quantity,DCT2,kidney768
+[339] Kidney_1cell_339.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[340] Kidney_1cell_340.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[341] Kidney_1cell_341.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[342] Kidney_1cell_342.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[343] Kidney_1cell_343.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[344] Kidney_1cell_344.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[345] Kidney_1cell_345.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[346] Kidney_1cell_346.htrms.PG.Quantity,CNT,kidney768
+[347] Kidney_1cell_347.htrms.PG.Quantity,Descending vasa recta,kidney768
+[348] Kidney_1cell_348.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[349] Kidney_1cell_349.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[350] Kidney_1cell_350.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[351] Kidney_1cell_351.htrms.PG.Quantity,Juxtaglomerular cells,kidney768
+[352] Kidney_1cell_352.htrms.PG.Quantity,Unknown,kidney768
+[353] Kidney_1cell_353.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[354] Kidney_1cell_354.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[355] Kidney_1cell_355.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[356] Kidney_1cell_356.htrms.PG.Quantity,Descending vasa recta,kidney768
+[357] Kidney_1cell_357.htrms.PG.Quantity,Descending vasa recta,kidney768
+[358] Kidney_1cell_358.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[359] Kidney_1cell_359.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[360] Kidney_1cell_360.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[361] Kidney_1cell_361.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[362] Kidney_1cell_362.htrms.PG.Quantity,CD-intercalated cells (type B),kidney768
+[363] Kidney_1cell_363.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[364] Kidney_1cell_364.htrms.PG.Quantity,CNT,kidney768
+[365] Kidney_1cell_365.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[366] Kidney_1cell_366.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[367] Kidney_1cell_367.htrms.PG.Quantity,CNT,kidney768
+[368] Kidney_1cell_368.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[369] Kidney_1cell_369.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[370] Kidney_1cell_370.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[371] Kidney_1cell_371.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[372] Kidney_1cell_372.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[373] Kidney_1cell_373.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[374] Kidney_1cell_374.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[375] Kidney_1cell_375.htrms.PG.Quantity,Juxtaglomerular cells,kidney768
+[376] Kidney_1cell_376.htrms.PG.Quantity,CNT,kidney768
+[377] Kidney_1cell_377.htrms.PG.Quantity,CNT,kidney768
+[379] Kidney_1cell_379.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[380] Kidney_1cell_380.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[381] Kidney_1cell_381.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[382] Kidney_1cell_382.htrms.PG.Quantity,Juxtaglomerular cells,kidney768
+[383] Kidney_1cell_383.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[384] Kidney_1cell_384.htrms.PG.Quantity,Descending vasa recta,kidney768
+[385] Kidney_1cell_385.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[386] Kidney_1cell_386.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[387] Kidney_1cell_387.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[388] Kidney_1cell_388.htrms.PG.Quantity,Descending vasa recta,kidney768
+[389] Kidney_1cell_389.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[390] Kidney_1cell_390.htrms.PG.Quantity,Descending vasa recta,kidney768
+[391] Kidney_1cell_391.htrms.PG.Quantity,Unknown,kidney768
+[392] Kidney_1cell_392.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[393] Kidney_1cell_393.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[394] Kidney_1cell_394.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[395] Kidney_1cell_395.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[396] Kidney_1cell_396.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[397] Kidney_1cell_397.htrms.PG.Quantity,CNT,kidney768
+[398] Kidney_1cell_398.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[399] Kidney_1cell_399.htrms.PG.Quantity,Juxtaglomerular cells,kidney768
+[400] Kidney_1cell_400.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[401] Kidney_1cell_401.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[402] Kidney_1cell_402.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[403] Kidney_1cell_403.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[404] Kidney_1cell_404.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[405] Kidney_1cell_405.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[406] Kidney_1cell_406.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[407] Kidney_1cell_407.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[408] Kidney_1cell_408.htrms.PG.Quantity,Descending vasa recta,kidney768
+[409] Kidney_1cell_409.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[410] Kidney_1cell_410.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[411] Kidney_1cell_411.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[412] Kidney_1cell_412.htrms.PG.Quantity,CNT,kidney768
+[413] Kidney_1cell_413.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[414] Kidney_1cell_414.htrms.PG.Quantity,Unknown,kidney768
+[415] Kidney_1cell_415.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[416] Kidney_1cell_416.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[417] Kidney_1cell_417.htrms.PG.Quantity,CNT,kidney768
+[418] Kidney_1cell_418.htrms.PG.Quantity,CNT,kidney768
+[419] Kidney_1cell_419.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[420] Kidney_1cell_420.htrms.PG.Quantity,Descending vasa recta,kidney768
+[421] Kidney_1cell_421.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[422] Kidney_1cell_422.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[423] Kidney_1cell_423.htrms.PG.Quantity,CNT,kidney768
+[424] Kidney_1cell_424.htrms.PG.Quantity,CNT,kidney768
+[425] Kidney_1cell_425.htrms.PG.Quantity,DCT2,kidney768
+[426] Kidney_1cell_426.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[427] Kidney_1cell_427.htrms.PG.Quantity,Unknown,kidney768
+[428] Kidney_1cell_428.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[429] Kidney_1cell_429.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[430] Kidney_1cell_430.htrms.PG.Quantity,DCT2,kidney768
+[431] Kidney_1cell_431.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[432] Kidney_1cell_432.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[433] Kidney_1cell_433.htrms.PG.Quantity,CNT,kidney768
+[434] Kidney_1cell_434.htrms.PG.Quantity,Unknown,kidney768
+[435] Kidney_1cell_435.htrms.PG.Quantity,Descending vasa recta,kidney768
+[436] Kidney_1cell_436.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[437] Kidney_1cell_437.htrms.PG.Quantity,Macula densa,kidney768
+[438] Kidney_1cell_438.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[439] Kidney_1cell_439.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[440] Kidney_1cell_440.htrms.PG.Quantity,Juxtaglomerular cells,kidney768
+[441] Kidney_1cell_441.htrms.PG.Quantity,CNT,kidney768
+[443] Kidney_1cell_443.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[444] Kidney_1cell_444.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[445] Kidney_1cell_445.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[446] Kidney_1cell_446.htrms.PG.Quantity,Macula densa,kidney768
+[447] Kidney_1cell_447.htrms.PG.Quantity,Unknown,kidney768
+[448] Kidney_1cell_448.htrms.PG.Quantity,Descending vasa recta,kidney768
+[449] Kidney_1cell_449.htrms.PG.Quantity,CNT,kidney768
+[450] Kidney_1cell_450.htrms.PG.Quantity,CNT,kidney768
+[452] Kidney_1cell_452.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[453] Kidney_1cell_453.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[454] Kidney_1cell_454.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[455] Kidney_1cell_455.htrms.PG.Quantity,DCT2,kidney768
+[456] Kidney_1cell_456.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[457] Kidney_1cell_457.htrms.PG.Quantity,CNT,kidney768
+[458] Kidney_1cell_458.htrms.PG.Quantity,Descending vasa recta,kidney768
+[459] Kidney_1cell_459.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[461] Kidney_1cell_461.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[462] Kidney_1cell_462.htrms.PG.Quantity,Juxtaglomerular cells,kidney768
+[463] Kidney_1cell_463.htrms.PG.Quantity,CNT,kidney768
+[464] Kidney_1cell_464.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[465] Kidney_1cell_465.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[466] Kidney_1cell_466.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[468] Kidney_1cell_468.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[469] Kidney_1cell_469.htrms.PG.Quantity,CNT,kidney768
+[470] Kidney_1cell_470.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[471] Kidney_1cell_471.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[472] Kidney_1cell_472.htrms.PG.Quantity,CNT,kidney768
+[473] Kidney_1cell_473.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[474] Kidney_1cell_474.htrms.PG.Quantity,CNT,kidney768
+[475] Kidney_1cell_475.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[476] Kidney_1cell_476.htrms.PG.Quantity,Descending vasa recta,kidney768
+[477] Kidney_1cell_477.htrms.PG.Quantity,Descending vasa recta,kidney768
+[478] Kidney_1cell_478.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[479] Kidney_1cell_479.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[480] Kidney_1cell_480.htrms.PG.Quantity,Descending vasa recta,kidney768
+[481] Kidney_1cell_481.htrms.PG.Quantity,Descending vasa recta,kidney768
+[482] Kidney_1cell_482.htrms.PG.Quantity,Descending vasa recta,kidney768
+[483] Kidney_1cell_483.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[484] Kidney_1cell_484.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[485] Kidney_1cell_485.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[486] Kidney_1cell_486.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[487] Kidney_1cell_487.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[488] Kidney_1cell_488.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[491] Kidney_1cell_491.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[492] Kidney_1cell_492.htrms.PG.Quantity,CNT,kidney768
+[493] Kidney_1cell_493.htrms.PG.Quantity,Descending vasa recta,kidney768
+[494] Kidney_1cell_494.htrms.PG.Quantity,Unknown,kidney768
+[495] Kidney_1cell_495.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[496] Kidney_1cell_496.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[497] Kidney_1cell_497.htrms.PG.Quantity,DCT2,kidney768
+[498] Kidney_1cell_498.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[499] Kidney_1cell_499.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[500] Kidney_1cell_500.htrms.PG.Quantity,Macula densa,kidney768
+[501] Kidney_1cell_501.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[502] Kidney_1cell_502.htrms.PG.Quantity,DCT2,kidney768
+[503] Kidney_1cell_503.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[504] Kidney_1cell_504.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[505] Kidney_1cell_505.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[506] Kidney_1cell_506.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[507] Kidney_1cell_507.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[508] Kidney_1cell_508.htrms.PG.Quantity,Juxtaglomerular cells,kidney768
+[509] Kidney_1cell_509.htrms.PG.Quantity,Descending vasa recta,kidney768
+[510] Kidney_1cell_510.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[511] Kidney_1cell_511.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[512] Kidney_1cell_512.htrms.PG.Quantity,Descending vasa recta,kidney768
+[513] Kidney_1cell_513.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[514] Kidney_1cell_514.htrms.PG.Quantity,CNT,kidney768
+[515] Kidney_1cell_515.htrms.PG.Quantity,CD-intercalated cells (type B),kidney768
+[517] Kidney_1cell_517.htrms.PG.Quantity,Macula densa,kidney768
+[519] Kidney_1cell_519.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[520] Kidney_1cell_520.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[521] Kidney_1cell_521.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[522] Kidney_1cell_522.htrms.PG.Quantity,Descending vasa recta,kidney768
+[523] Kidney_1cell_523.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[524] Kidney_1cell_524.htrms.PG.Quantity,DCT2,kidney768
+[525] Kidney_1cell_525.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[527] Kidney_1cell_527.htrms.PG.Quantity,Macula densa,kidney768
+[528] Kidney_1cell_528.htrms.PG.Quantity,Unknown,kidney768
+[529] Kidney_1cell_529.htrms.PG.Quantity,DCT2,kidney768
+[530] Kidney_1cell_530.htrms.PG.Quantity,Descending vasa recta,kidney768
+[531] Kidney_1cell_531.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[532] Kidney_1cell_532.htrms.PG.Quantity,CD-intercalated cells (type B),kidney768
+[533] Kidney_1cell_533.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[534] Kidney_1cell_534.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[535] Kidney_1cell_535.htrms.PG.Quantity,Descending vasa recta,kidney768
+[536] Kidney_1cell_536.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[538] Kidney_1cell_538.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[539] Kidney_1cell_539.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[540] Kidney_1cell_540.htrms.PG.Quantity,CNT,kidney768
+[541] Kidney_1cell_541.htrms.PG.Quantity,Unknown,kidney768
+[542] Kidney_1cell_542.htrms.PG.Quantity,Descending vasa recta,kidney768
+[544] Kidney_1cell_544.htrms.PG.Quantity,Descending vasa recta,kidney768
+[545] Kidney_1cell_545.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[546] Kidney_1cell_546.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[547] Kidney_1cell_547.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[549] Kidney_1cell_549.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[550] Kidney_1cell_550.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[551] Kidney_1cell_551.htrms.PG.Quantity,DCT2,kidney768
+[552] Kidney_1cell_552.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[553] Kidney_1cell_553.htrms.PG.Quantity,Macula densa,kidney768
+[554] Kidney_1cell_554.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[555] Kidney_1cell_555.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[556] Kidney_1cell_556.htrms.PG.Quantity,DCT2,kidney768
+[557] Kidney_1cell_557.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[558] Kidney_1cell_558.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[559] Kidney_1cell_559.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[561] Kidney_1cell_561.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[562] Kidney_1cell_562.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[563] Kidney_1cell_563.htrms.PG.Quantity,Descending vasa recta,kidney768
+[564] Kidney_1cell_564.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[565] Kidney_1cell_565.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[566] Kidney_1cell_566.htrms.PG.Quantity,Macula densa,kidney768
+[567] Kidney_1cell_567.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[568] Kidney_1cell_568.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[569] Kidney_1cell_569.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[570] Kidney_1cell_570.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[571] Kidney_1cell_571.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[573] Kidney_1cell_573.htrms.PG.Quantity,CNT,kidney768
+[574] Kidney_1cell_574.htrms.PG.Quantity,CNT,kidney768
+[575] Kidney_1cell_575.htrms.PG.Quantity,Juxtaglomerular cells,kidney768
+[576] Kidney_1cell_576.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[578] Kidney_1cell_578.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[579] Kidney_1cell_579.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[580] Kidney_1cell_580.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[581] Kidney_1cell_581.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[582] Kidney_1cell_582.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[583] Kidney_1cell_583.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[584] Kidney_1cell_584.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[585] Kidney_1cell_585.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[587] Kidney_1cell_587.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[588] Kidney_1cell_588.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[590] Kidney_1cell_590.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[591] Kidney_1cell_591.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[592] Kidney_1cell_592.htrms.PG.Quantity,CNT,kidney768
+[593] Kidney_1cell_593.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[594] Kidney_1cell_594.htrms.PG.Quantity,Unknown,kidney768
+[595] Kidney_1cell_595.htrms.PG.Quantity,DCT2,kidney768
+[596] Kidney_1cell_596.htrms.PG.Quantity,CNT,kidney768
+[597] Kidney_1cell_597.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[598] Kidney_1cell_598.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[599] Kidney_1cell_599.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[600] Kidney_1cell_600.htrms.PG.Quantity,DCT2,kidney768
+[601] Kidney_1cell_601.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[602] Kidney_1cell_602.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[605] Kidney_1cell_605.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[606] Kidney_1cell_606.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[607] Kidney_1cell_607.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[608] Kidney_1cell_608.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[609] Kidney_1cell_609.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[610] Kidney_1cell_610.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[611] Kidney_1cell_611.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[612] Kidney_1cell_612.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[613] Kidney_1cell_613.htrms.PG.Quantity,CD-intercalated cells (type B),kidney768
+[614] Kidney_1cell_614.htrms.PG.Quantity,CNT,kidney768
+[615] Kidney_1cell_615.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[616] Kidney_1cell_616.htrms.PG.Quantity,Descending vasa recta,kidney768
+[618] Kidney_1cell_618.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[619] Kidney_1cell_619.htrms.PG.Quantity,DCT2,kidney768
+[620] Kidney_1cell_620.htrms.PG.Quantity,Juxtaglomerular cells,kidney768
+[621] Kidney_1cell_621.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[622] Kidney_1cell_622.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[623] Kidney_1cell_623.htrms.PG.Quantity,CNT,kidney768
+[624] Kidney_1cell_624.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[625] Kidney_1cell_625.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[626] Kidney_1cell_626.htrms.PG.Quantity,Juxtaglomerular cells,kidney768
+[627] Kidney_1cell_627.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[628] Kidney_1cell_628.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[629] Kidney_1cell_629.htrms.PG.Quantity,Descending vasa recta,kidney768
+[630] Kidney_1cell_630.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[631] Kidney_1cell_631.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[632] Kidney_1cell_632.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[633] Kidney_1cell_633.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[634] Kidney_1cell_634.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[635] Kidney_1cell_635.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[636] Kidney_1cell_636.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[638] Kidney_1cell_638.htrms.PG.Quantity,Descending vasa recta,kidney768
+[639] Kidney_1cell_639.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[640] Kidney_1cell_640.htrms.PG.Quantity,Descending vasa recta,kidney768
+[641] Kidney_1cell_641.htrms.PG.Quantity,Descending vasa recta,kidney768
+[642] Kidney_1cell_642.htrms.PG.Quantity,Descending vasa recta,kidney768
+[643] Kidney_1cell_643.htrms.PG.Quantity,Descending vasa recta,kidney768
+[644] Kidney_1cell_644.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[645] Kidney_1cell_645.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[646] Kidney_1cell_646.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[647] Kidney_1cell_647.htrms.PG.Quantity,CNT,kidney768
+[648] Kidney_1cell_648.htrms.PG.Quantity,Macula densa,kidney768
+[649] Kidney_1cell_649.htrms.PG.Quantity,CD-intercalated cells (type B),kidney768
+[650] Kidney_1cell_650.htrms.PG.Quantity,CNT,kidney768
+[651] Kidney_1cell_651.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[652] Kidney_1cell_652.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[653] Kidney_1cell_653.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[654] Kidney_1cell_654.htrms.PG.Quantity,Macula densa,kidney768
+[655] Kidney_1cell_655.htrms.PG.Quantity,CNT,kidney768
+[656] Kidney_1cell_656.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[657] Kidney_1cell_657.htrms.PG.Quantity,Descending vasa recta,kidney768
+[658] Kidney_1cell_658.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[659] Kidney_1cell_659.htrms.PG.Quantity,Macula densa,kidney768
+[660] Kidney_1cell_660.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[661] Kidney_1cell_661.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[663] Kidney_1cell_663.htrms.PG.Quantity,CNT,kidney768
+[664] Kidney_1cell_664.htrms.PG.Quantity,DCT2,kidney768
+[665] Kidney_1cell_665.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[666] Kidney_1cell_666.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[667] Kidney_1cell_667.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[668] Kidney_1cell_668.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[669] Kidney_1cell_669.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[670] Kidney_1cell_670.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[671] Kidney_1cell_671.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[672] Kidney_1cell_672.htrms.PG.Quantity,CNT,kidney768
+[673] Kidney_1cell_673.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[674] Kidney_1cell_674.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[675] Kidney_1cell_675.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[676] Kidney_1cell_676.htrms.PG.Quantity,Unknown,kidney768
+[677] Kidney_1cell_677.htrms.PG.Quantity,CNT,kidney768
+[678] Kidney_1cell_678.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[679] Kidney_1cell_679.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[680] Kidney_1cell_680.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[681] Kidney_1cell_681.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[682] Kidney_1cell_682.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[683] Kidney_1cell_683.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[684] Kidney_1cell_684.htrms.PG.Quantity,Macula densa,kidney768
+[685] Kidney_1cell_685.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[686] Kidney_1cell_686.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[687] Kidney_1cell_687.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[688] Kidney_1cell_688.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[689] Kidney_1cell_689.htrms.PG.Quantity,Macula densa,kidney768
+[690] Kidney_1cell_690.htrms.PG.Quantity,CNT,kidney768
+[691] Kidney_1cell_691.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[692] Kidney_1cell_692.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[693] Kidney_1cell_693.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[696] Kidney_1cell_696.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[697] Kidney_1cell_697.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[698] Kidney_1cell_698.htrms.PG.Quantity,Descending vasa recta,kidney768
+[699] Kidney_1cell_699.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[700] Kidney_1cell_700.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[701] Kidney_1cell_701.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[702] Kidney_1cell_702.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[703] Kidney_1cell_703.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[704] Kidney_1cell_704.htrms.PG.Quantity,DCT2,kidney768
+[705] Kidney_1cell_705.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[706] Kidney_1cell_706.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[707] Kidney_1cell_707.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[708] Kidney_1cell_708.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[709] Kidney_1cell_709.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[710] Kidney_1cell_710.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[711] Kidney_1cell_711.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[712] Kidney_1cell_712.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[714] Kidney_1cell_714.htrms.PG.Quantity,Juxtaglomerular cells,kidney768
+[715] Kidney_1cell_715.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[716] Kidney_1cell_716.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[717] Kidney_1cell_717.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[718] Kidney_1cell_718.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[719] Kidney_1cell_719.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[720] Kidney_1cell_720.htrms.PG.Quantity,Macula densa,kidney768
+[721] Kidney_1cell_721.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[722] Kidney_1cell_722.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[723] Kidney_1cell_723.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[725] Kidney_1cell_725.htrms.PG.Quantity,CNT,kidney768
+[726] Kidney_1cell_726.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[727] Kidney_1cell_727.htrms.PG.Quantity,CNT,kidney768
+[728] Kidney_1cell_728.htrms.PG.Quantity,Descending vasa recta,kidney768
+[730] Kidney_1cell_730.htrms.PG.Quantity,CNT,kidney768
+[731] Kidney_1cell_731.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[732] Kidney_1cell_732.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[733] Kidney_1cell_733.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[734] Kidney_1cell_734.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[735] Kidney_1cell_735.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[736] Kidney_1cell_736.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[737] Kidney_1cell_737.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[738] Kidney_1cell_738.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[739] Kidney_1cell_739.htrms.PG.Quantity,Macula densa,kidney768
+[740] Kidney_1cell_740.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[741] Kidney_1cell_741.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[742] Kidney_1cell_742.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[743] Kidney_1cell_743.htrms.PG.Quantity,Unknown,kidney768
+[744] Kidney_1cell_744.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[745] Kidney_1cell_745.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[746] Kidney_1cell_746.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[747] Kidney_1cell_747.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[748] Kidney_1cell_748.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[749] Kidney_1cell_749.htrms.PG.Quantity,CNT,kidney768
+[750] Kidney_1cell_750.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[751] Kidney_1cell_751.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[752] Kidney_1cell_752.htrms.PG.Quantity,DCT2,kidney768
+[753] Kidney_1cell_753.htrms.PG.Quantity,Descending vasa recta,kidney768
+[754] Kidney_1cell_754.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[755] Kidney_1cell_755.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[756] Kidney_1cell_756.htrms.PG.Quantity,CD-intercalated cells (type B),kidney768
+[757] Kidney_1cell_757.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[758] Kidney_1cell_758.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[759] Kidney_1cell_759.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[760] Kidney_1cell_760.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[761] Kidney_1cell_761.htrms.PG.Quantity,Proximal straight tubule,kidney768
+[762] Kidney_1cell_762.htrms.PG.Quantity,CD-intercalated cells (type B),kidney768
+[763] Kidney_1cell_763.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[764] Kidney_1cell_764.htrms.PG.Quantity,CNT,kidney768
+[765] Kidney_1cell_765.htrms.PG.Quantity,Proximal convoluted tubule,kidney768
+[766] Kidney_1cell_766.htrms.PG.Quantity,Thick ascending limb of LOH,kidney768
+[767] Kidney_1cell_767.htrms.PG.Quantity,DCT2,kidney768
