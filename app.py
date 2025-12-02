@@ -11,7 +11,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 # ------------------ Page & Config ------------------
-st.set_page_config(page_title="Single‑Cell Proteomics Browser — Kidney", layout="wide")
+st.set_page_config(page_title="Single‑Cell Proteomics Browser — Mouse Kidney", layout="wide")
 CFG_PATH = Path("config.yaml")
 
 DEFAULT_ID_LABELS = {"id1":"UniProt accession","id2":"Gene symbol","id3":"Protein description"}
@@ -127,7 +127,7 @@ ID2_SQL = qi(ID_COLS.get("id2","id2"))
 ID3_SQL = qi(ID_COLS.get("id3","id3"))
 
 # ------------------ Sidebar ------------------
-st.title("Single‑Cell Proteomics Browser — Kidney")
+st.title("Single‑Cell Proteomics Browser — Mouse Kidney")
 
 datasets = [r[0] for r in con.execute("SELECT DISTINCT dataset FROM protein_summary ORDER BY dataset").fetchall()]
 celltypes = [r[0] for r in con.execute("SELECT DISTINCT celltype FROM protein_summary ORDER BY celltype").fetchall()]
