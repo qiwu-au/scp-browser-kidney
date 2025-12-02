@@ -7,6 +7,8 @@ import yaml
 from pathlib import Path
 import itertools
 import io
+import plotly.express as px
+import plotly.graph_objects as go
 
 # ------------------ Page & Config ------------------
 st.set_page_config(page_title="Single‑Cell Proteomics Browser — Kidney", layout="wide")
@@ -39,6 +41,32 @@ cell_qc_csv = DATA_DIR / "cell_qc.csv"
 # Columns to hide in UI and to drop from CSV exports
 HIDE_COLS = {"leiden", "leiden_named"}
 
+# anchor paths to this script
+APP_DIR = Path(__file__).parent.resolve()
+DATA_DIR = (APP_DIR / "data").resolve()
+
+def pq(p: Path) -> str:
+    """Convert Path -> POSIX string for DuckDB."""
+    return p.as_posix()
+
+def ensure_long_view(con):
+    """Create/refresh the 'long_all' view from data/long_*.parquet if missing."""
+    exists = con.execute(
+        """
+        SELECT COUNT(*)
+        FROM information_schema.tables
+        WHERE table_schema = 'main' AND table_name = 'long_all'
+        """
+    ).fetchone()[0]
+
+    if exists == 0:
+        long_files = sorted(DATA_DIR.glob("long_*.parquet"))
+        if long_files:
+            union_sql = " UNION ALL ".join(
+                [f"SELECT * FROM read_parquet('{pq(f)}')" for f in long_files]
+            )
+            con.execute(f"CREATE VIEW long_all AS {union_sql}")
+
 def hide_cols(df):
     """Remove HIDE_COLS from tables shown in the UI."""
     try:
@@ -62,6 +90,16 @@ def drop_cols_pl(df):
     except Exception:
         pass
     return df
+
+def figure_square(fig, height=700):
+    """Force square aspect: y axis anchored to x, set height."""
+    try:
+        fig.update_layout(height=height, margin=dict(l=10, r=10, t=40, b=10))
+        fig.update_yaxes(scaleanchor="x", scaleratio=1)
+    except Exception:
+        pass
+    return fig
+    
 
 # ------------------ DuckDB ------------------
 con = duckdb.connect()
@@ -102,8 +140,10 @@ with st.sidebar:
     # Field select uses PHYSICAL column names as values; labels are display-only
     id_field_options = [ID_COLS.get("id1","id1"), ID_COLS.get("id2","id2"), ID_COLS.get("id3","id3")]
     field = st.selectbox("Protein ID field", id_field_options, index=0,
-                         format_func=lambda col: LABEL_BY_COL.get(col, col))
-    term = st.text_input("Search term")
+                     format_func=lambda col: LABEL_BY_COL.get(col, col),
+                     key="id_field")
+    term = st.text_input("Search term (contains)", key="search_term")
+
 
     st.markdown("**Thresholds**")
     core_pct = st.slider(
@@ -114,6 +154,13 @@ with st.sidebar:
         "Max presence in other cell types (≤ X%)",
         min_value=0, max_value=100, value=0, step=5, key="unique_max_pct",
         help="Protein must be core in the chosen cell type and present in ≤ this % of the other selected cell types."
+    )
+    
+    # One slider to control BOTH UMAPs
+    umap_px = st.slider(
+        "UMAP size (px)",
+        min_value=400, max_value=1200, step=50, value=700, key="umap_px",
+        help="Controls the height of both UMAP plots. Width stretches to the container."
     )
 
 core_frac = core_pct / 100.0
@@ -312,8 +359,6 @@ else:
     um = con.execute(q_um, pu).pl()
     pdf = um.to_pandas()
 
-    umap_size = st.slider("UMAP size (px)", 500, 1200, 700, 50)
-
     if "celltype" in pdf.columns:
         fig = px.scatter(
             pdf, x="UMAP1", y="UMAP2", color="celltype",
@@ -330,13 +375,150 @@ else:
     span = max(x_max - x_min, y_max - y_min) or 1.0
     xr = [cx - span / 2.0, cx + span / 2.0]
     yr = [cy - span / 2.0, cy + span / 2.0]
+    # Save axis range for the overlay to reuse
+    st.session_state["umap_axis_range"] = (xr[0], xr[1], yr[0], yr[1])
 
     fig.update_xaxes(range=xr, constrain="domain")
     fig.update_yaxes(range=yr, scaleanchor="x", scaleratio=1, constrain="domain")
-    fig.update_layout(width=umap_size, height=umap_size, margin=dict(l=10, r=10, t=40, b=10))
+    fig.update_layout(
+    width=st.session_state.get("umap_px", 700),
+    height=st.session_state.get("umap_px", 700),
+    margin=dict(l=10, r=10, t=40, b=10)
+)
 
-    st.plotly_chart(fig, width="content")
-    st.dataframe(hide_cols(um), hide_index=True, width="stretch")
+    st.plotly_chart(fig, width="stretch")
+
+# ==== UMAP overlay by per-cell abundance (uses sidebar 'Protein ID field' + 'Search term') ====
+st.markdown("### UMAP overlay by protein/feature abundance")
+ensure_long_view(con)  # make sure 'long_all' view exists
+
+# count long rows (debug)
+try:
+    n_long_overlay = con.execute("SELECT COUNT(*) FROM long_all").fetchone()[0]
+#   st.caption(f"(debug) rows in long_all seen by overlay: {int(n_long_overlay)}")
+except Exception as e:
+    n_long_overlay = 0
+    st.error(f"long_all not accessible: {e}")
+
+if n_long_overlay == 0:
+    st.info("Per-cell intensities are not available. Ensure `data/long_*.parquet` exists and is readable.")
+else:
+    # Pull current sidebar values safely
+    term = (st.session_state.get("search_term") or "").strip()
+    field = st.session_state.get("id_field", ID_COLS.get("id2", "id2"))
+
+    if not term:
+        st.caption("Enter a search term in the sidebar to overlay per-cell abundance on the UMAP.")
+    else:
+        # Resolve candidates in protein_summary using the chosen field
+        q_candidates = f"""
+            SELECT DISTINCT {qi(field)} AS label
+            FROM protein_summary
+            WHERE LOWER({qi(field)}) LIKE '%' || LOWER(?) || '%'
+            LIMIT 30
+        """
+        cand = con.execute(q_candidates, [term]).pl()
+        if cand.height == 0:
+            st.warning("No matching protein/feature for the current search.")
+        else:
+            labels = cand["label"].to_list()
+            choice = labels[0] if len(labels) == 1 else st.selectbox("Pick a match for overlay", labels, key="overlay_choice")
+
+            # Map UI field -> an actual column in long_all (supports id1/id2/id3 or full headers)
+            long_cols = con.execute("SELECT name FROM pragma_table_info('long_all')").pl()["name"].to_list()
+            candidates_in_order = [field]  # try exact header name first
+            alias_map = {
+                ID_COLS.get("id1","id1"): "id1",
+                ID_COLS.get("id2","id2"): "id2",
+                ID_COLS.get("id3","id3"): "id3",
+                "UniProt accession": "id1",
+                "Gene symbol": "id2",
+                "Protein description": "id3",
+            }
+            if field in alias_map:
+                candidates_in_order.append(alias_map[field])
+            # final fallbacks
+            for c in ["id2","id1","id3","UniProt accession","Gene symbol","Protein description"]:
+                if c not in candidates_in_order:
+                    candidates_in_order.append(c)
+
+            map_field = next((c for c in candidates_in_order if c in long_cols), None)
+            if map_field is None:
+                st.error(
+                    f"Could not map selected ID field '{field}' to any column in long_all. "
+                    f"Columns found: {', '.join(map(str, long_cols))}"
+                )
+            else:
+                # Build fresh WHERE/params locally (don’t rely on outer 'pu')
+                cond_sql, cond_params = where("", ds, ct)
+
+                # Quick sanity check: do the cell_ids overlap between umap and long?
+                q_check = f"""
+                    WITH um AS (SELECT DISTINCT cell_id FROM umap_raw {cond_sql}),
+                         lg AS (SELECT DISTINCT cell_id FROM long_all)
+                    SELECT COUNT(*) FROM um JOIN lg USING(cell_id)
+                """
+
+                overlap = con.execute(q_check, cond_params).fetchone()[0]
+                if overlap == 0:
+                    st.error("No overlap between UMAP cell_id and long_* cell_id. "
+                             "Re-run the converter so both use the same cell_id headers.")
+                else:
+                    # Join per-cell intensities to FILTERED UMAP (local params ensure correct order)
+                    q_overlay = f"""
+                        WITH expr AS (
+                          SELECT cell_id, intensity
+                          FROM long_all
+                          WHERE {qi(map_field)} = ?
+                        )
+                        SELECT u.cell_id, u.UMAP1, u.UMAP2, u.celltype, u.dataset, e.intensity
+                        FROM umap_raw u
+                        LEFT JOIN expr e USING (cell_id)
+                        {cond_sql}
+                    """
+                    df_ov = con.execute(q_overlay, [choice] + cond_params).pl().to_pandas()
+                    st.caption(f"overlay rows={len(df_ov)}, "
+                               f"detected={(~df_ov['intensity'].isna()).sum()}, "
+                               f"not_detected={(df_ov['intensity'].isna()).sum()}")
+
+                    # Plot overlay: detected cells colored by intensity, undetected in grey
+                    import numpy as np
+                    if df_ov.empty:
+                        st.info("No rows to display after applying current filters.")
+                    else:
+                        missing = df_ov[df_ov["intensity"].isna()]
+                        detected = df_ov[~df_ov["intensity"].isna()]
+
+                        fig2 = go.Figure()
+                        if not missing.empty:
+                            fig2.add_scattergl(
+                                x=missing["UMAP1"], y=missing["UMAP2"],
+                                mode="markers", name="Not detected",
+                                opacity=0.35,
+                                marker=dict(size=5, color="#D3D3D3"),
+                                text=missing["cell_id"],
+                                hovertemplate="cell: %{text}<br>not detected"
+                            )
+                        if not detected.empty:
+                            fig2.add_scattergl(
+                                x=detected["UMAP1"], y=detected["UMAP2"],
+                                mode="markers", name="Intensity",
+                                marker=dict(size=6, color=detected["intensity"], colorscale="Viridis", showscale=True),
+                                text=detected["cell_id"],
+                                hovertemplate="cell: %{text}<br>intensity: %{marker.color:.3g}"
+                            )
+                        # Match original UMAP axes + identical margins
+                        rng = st.session_state.get("umap_axis_range")
+                        if rng:
+                                x0, x1, y0, y1 = rng
+                                fig2.update_xaxes(range=[x0, x1], constrain="domain")
+                                fig2.update_yaxes(range=[y0, y1], scaleanchor="x", scaleratio=1, constrain="domain")
+  
+                        # Use the sidebar size strictly for the plot area
+                        desired_h = int(st.session_state.get("umap_px", 700))
+                        fig2.update_layout(margin=dict(l=10, r=10, t=40, b=10))  # same as main UMAP
+                        fig2 = figure_square(fig2, height=desired_h)  # keep axes square
+                        st.plotly_chart(fig2, width="stretch")        # match the main UMAP
 
 # ------------------ Core & Unique by percentage ------------------
 st.subheader("Core & Unique proteins by cell type")
