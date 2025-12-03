@@ -241,7 +241,10 @@ if cell_qc_csv.exists():
             category_orders={"celltype": ORDERED_CELLTYPES},
             color_discrete_map=CELLTYPE_COLOR,
             labels={"celltype":"Cell type", "n_proteins_identified":"# proteins per cell"},
-            title="Proteins identified per cell (by cell type)"
+            title="Proteins identified per cell (by cell type)",
+        )
+        fig2.update_layout(
+            legend_title_text="Cell type — click once to hide; double-click to isolate"
         )
         st.plotly_chart(fig2, width="stretch")
 
@@ -252,7 +255,10 @@ if cell_qc_csv.exists():
                 category_orders={"celltype": ORDERED_CELLTYPES},
                 color_discrete_map=CELLTYPE_COLOR,
                 labels={"celltype":"Cell type", "dynamic_range_log10":"Dynamic range (log10)"},
-                title="Dynamic range per cell (by cell type)"
+                title="Dynamic range per cell (by cell type)",
+            )
+            fig3.update_layout(
+                legend_title_text="Cell type — click once to hide; double-click to isolate"
             )
             st.plotly_chart(fig3, width="stretch")
         st.dataframe(hide_cols(qc), hide_index=True, width="stretch")
@@ -383,7 +389,8 @@ else:
     fig.update_layout(
     width=st.session_state.get("umap_px", 700),
     height=st.session_state.get("umap_px", 700),
-    margin=dict(l=10, r=10, t=40, b=10)
+    margin=dict(l=10, r=10, t=40, b=10),
+    legend_title_text="Cell type — click once to hide; double-click to keep"
 )
 
     st.plotly_chart(fig, width="stretch")
