@@ -19,8 +19,8 @@ label_sets:
   cell_type:
     name: "Cell types"
     description: >-
-      Leiden 2.0 clusters on the stored graph, each named from its differential proteins and the V3
-      markers plus an endothelial row. Cells of clusters without marker evidence are Unknown.
+      Leiden 2.0 clusters on the stored graph, each named from its differential proteins and a curated
+      kidney marker list. Cells of clusters without marker evidence are Unknown.
     display:
       DCT1: DCT
       PC: CNT/PC
@@ -41,8 +41,8 @@ cluster_table:
   display_columns: [top25_label]   # same label codes, shown with the cell-type display names
   help: >-
     One row per Leiden 2.0 cluster. Differential proteins: each cluster against all other cells.
-    A cluster is named after the cell type whose V3 (or endothelial-row) markers are among its top 25
-    differential proteins. Evidence: 'high' = at least one type-specific marker and marker enrichment
+    A cluster is named after the cell type whose markers (curated kidney marker list, Supplementary
+    Table S2) are among its top 25 differential proteins. Evidence: 'high' = at least one type-specific marker and marker enrichment
     q < 0.05; 'medium' = a type-specific marker, q ≥ 0.05; 'low_shared_only' = only markers that two or
     more types list. Clusters without a marker in the top 25 are rescued when a type-specific marker is
     significantly up at any rank ('specific_any_rank'; markers with rank, AUC, q and detection are

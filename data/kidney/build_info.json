@@ -1,6 +1,6 @@
 {
   "dataset": "kidney",
-  "built_utc": "2026-11-18T20:41:33+00:00",
+  "built_utc": "2026-11-18T21:20:35+00:00",
   "built_by": "Claude Code (Anthropic)",
   "n_cells": 712,
   "n_proteins": 4054,
@@ -20,7 +20,7 @@
       "sha256": "4f53bcd3f442bd96cc9b67ccf708fe53b513e0b180a63876d91578e2fb9bc9f2"
     },
     {
-      "source": "cell-type annotation (Leiden 2.0 clusters; V3 markers + endothelial row): per cell",
+      "source": "cell-type annotation (Leiden 2.0 clusters; curated kidney marker list): per cell",
       "sha256": "8f31b4af7051656dd1c32cf5d6bb27d9943672da7030c3c25a58ff6835862525"
     },
     {
@@ -32,11 +32,11 @@
       "sha256": "548ac1627fcf9437dc87ab577bbb256316a502c1f0f872e0363b2a6025306ab1"
     },
     {
-      "source": "V3 marker workbook (Supplementary Table S2)",
-      "sha256": "abcdaffd0740ecb378f94a42b7db0549f719b6bc6957506c530577dc592d7cf6"
+      "source": "curated kidney marker list (Supplementary Table S2)",
+      "sha256": "40c3a898f4ddad19750f933597912a88f4ee7ba0efb2e0b383e4c2ff1bc4c10b"
     },
     {
-      "source": "cell-type annotation (Leiden 2.0 clusters; V3 markers + endothelial row): per cluster, with marker evidence",
+      "source": "cell-type annotation (Leiden 2.0 clusters; curated kidney marker list): per cluster, with marker evidence",
       "sha256": "4cda57957b1bb0ade6a7cf0d9d17f811fc9799fe0dac3a3a62e1f7c386686e52"
     },
     {

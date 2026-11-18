@@ -13,7 +13,32 @@ from __future__ import annotations
 import streamlit as st
 
 from . import pages
-from .data import ID_FIELDS, find_protein, load_config, load_dataset, types_key
+from .data import APP_DIR, CONFIG_DIR, ID_FIELDS, find_protein, load_config, load_dataset, types_key
+
+
+@st.cache_resource(show_spinner=False)
+def _loaded_state() -> dict:
+    """One dict per server process: remembers which files the cached data were loaded from."""
+    return {}
+
+
+def _files_stamp() -> tuple:
+    """Name, size and modification time of every config and data file of the app."""
+    files = sorted(p for folder in (CONFIG_DIR, APP_DIR / "data") for p in folder.rglob("*") if p.is_file())
+    return tuple((p.relative_to(APP_DIR).as_posix(), p.stat().st_size, p.stat().st_mtime_ns) for p in files)
+
+
+def _refresh_caches() -> None:
+    """Drop the cached data when a config or data file has changed since they were loaded.
+
+    The data are cached for the lifetime of the server process. Without this check, a running app
+    would keep showing the old data after its files were updated, until it is restarted.
+    """
+    stamp = _files_stamp()
+    if _loaded_state().get("stamp") != stamp:
+        st.cache_data.clear()
+        st.cache_resource.clear()
+        _loaded_state()["stamp"] = stamp
 
 
 def _dataset_key(app_cfg: dict, app_key: str) -> str:
@@ -82,6 +107,7 @@ def _sync_state(ds, app_key: str) -> None:
 def run(config_key: str) -> None:
     app_cfg = load_config(config_key)
     st.set_page_config(page_title=app_cfg["short_title"], page_icon=app_cfg.get("page_icon", "🔬"), layout="wide")
+    _refresh_caches()
     ds = load_dataset(_dataset_key(app_cfg, config_key))
     _sync_state(ds, config_key)
     _sidebar(ds, app_cfg)

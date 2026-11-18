@@ -26,13 +26,12 @@ UNIPROT_URL = "https://www.uniprot.org/uniprotkb/{}/entry"
 # Wording that names the marker list of a dataset. A config can replace each entry under ``texts``;
 # without one, the wording of the kidney browser is used.
 DEFAULT_TEXTS = {
-    "marker_column": "Marker for (V3 / endothelial row)",
-    "marker_help": "rows of the kidney V3 marker workbook (Supplementary Table S2) or the added endothelial row "
-                   "that list the protein",
+    "marker_column": "Marker for (kidney marker list)",
+    "marker_help": "rows of the curated kidney marker list (Supplementary Table S2) that list the protein",
     "dotplot_presets_help": "the marker columns of the cell-type marker dotplot (up to 3 markers per cell type, or "
                             "all markers, each under the cell type with the highest mean among the types that list "
-                            "it) and every V3 workbook / endothelial-row marker among the proteins",
-    "marker_list_name": "V3 workbook + endothelial row",
+                            "it) and every marker of the curated kidney marker list among the proteins",
+    "marker_list_name": "curated kidney marker list",
 }
 
 

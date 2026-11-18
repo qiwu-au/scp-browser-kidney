@@ -19,8 +19,7 @@ Single-cell proteomics (SCP-MS) of the total mouse kidney, as reported in the ac
 ### Cell types
 
 - **Clustering:** Leiden 2.0 clusters on the stored graph (seed 42; minimum 5 cells).
-- **Naming:** each cluster is named from its differential proteins (that cluster vs all other cells) and the kidney V3 markers (Supplementary Table S2).
-- **Added marker row:** one row is added to the V3 markers: *Endothelial* (Pecam1, Emcn, Eng, Esam, Icam2, Fabp4, Ehd4).
+- **Naming:** each cluster is named from its differential proteins (that cluster vs all other cells) and a curated kidney marker list (Supplementary Table S2).
 - **Counts:** PCT 160, PST 158, TAL 138, DCT 58, CNT/PC 38, JG 24, Endothelial 19, IC-B 8, Unknown 109.
 - **Label codes:** *DCT* and *CNT/PC* have the codes DCT1 and PC in the downloads.
 - **Not resolved at cluster level with protein evidence:** DTL, ATL, MD, DCT1 vs DCT2, IC-A, DVR, AVR and podocytes.
