@@ -1,0 +1,37 @@
+{
+  "cell_type": {
+    "order": [
+      "Endothelial",
+      "JG",
+      "PCT",
+      "PST",
+      "TAL",
+      "DCT1",
+      "PC",
+      "IC-B",
+      "Unknown"
+    ],
+    "colors": {
+      "Endothelial": "#2a78d6",
+      "JG": "#9467bd",
+      "PCT": "#e377c2",
+      "PST": "#7f7f7f",
+      "TAL": "#bcbd22",
+      "DCT1": "#98df8a",
+      "PC": "#ffbb78",
+      "IC-B": "#ff7f0e",
+      "Unknown": "#B3B3B3"
+    },
+    "counts": {
+      "Endothelial": 19,
+      "JG": 24,
+      "PCT": 160,
+      "PST": 158,
+      "TAL": 138,
+      "DCT1": 58,
+      "PC": 38,
+      "IC-B": 8,
+      "Unknown": 109
+    }
+  }
+}

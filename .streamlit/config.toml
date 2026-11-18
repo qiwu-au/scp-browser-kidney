@@ -5,5 +5,5 @@ gatherUsageStats = false
 headless = true
 
 [theme]
-primaryColor="#375a7f"
-base="light"
+primaryColor = "#375a7f"
+base = "light"

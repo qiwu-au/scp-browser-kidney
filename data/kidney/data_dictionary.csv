@@ -1,0 +1,32 @@
+file,column,definition,source
+cell_metadata.csv,cell_id,Spectronaut column name of the cell,"analysis object (712 cells x 4,054 proteins; intensities, UMAP)"
+cell_metadata.csv,cell_no,number in square brackets at the start of cell_id,parsed from cell_id
+"cell_metadata.csv, umap.csv","UMAP1, UMAP2","stored UMAP of the neighbour graph (k = 10, 20 PCs)","analysis object (712 cells x 4,054 proteins; intensities, UMAP)"
+cell_metadata.csv,cell_type,label code of the cell's Leiden 2.0 cluster (V3 markers + endothelial row),cell-type annotation (Leiden 2.0 clusters; V3 markers + endothelial row)
+"cell_metadata.csv, umap.csv, cell_qc.csv, protein_summary.csv",cell_type_display / cell_type,"cell type as shown in the browser (code DCT1 shown as DCT, PC as CNT/PC)",cell-type annotation (Leiden 2.0 clusters; V3 markers + endothelial row)
+cell_metadata.csv,cluster,Leiden 2.0 cluster ID on the stored graph (seed 42),cell-type annotation (Leiden 2.0 clusters; V3 markers + endothelial row)
+cell_metadata.csv,cluster_evidence,marker-evidence level of the cell's cluster (see the Overview cluster table),cell-type annotation (Leiden 2.0 clusters; V3 markers + endothelial row)
+"cell_metadata.csv, cell_qc.csv",n_proteins,"proteins with intensity > 0 among the 4,054 retained proteins","analysis object (712 cells x 4,054 proteins; intensities, UMAP)"
+"cell_metadata.csv, cell_qc.csv",total_intensity,"sum of intensities over the 4,054 retained proteins","analysis object (712 cells x 4,054 proteins; intensities, UMAP)"
+cell_metadata.csv,intensity_median,median intensity of the detected retained proteins,"analysis object (712 cells x 4,054 proteins; intensities, UMAP)"
+"cell_metadata.csv, cell_qc.csv",dynamic_range_log10,log10(max / min) of the detected retained-protein intensities,"analysis object (712 cells x 4,054 proteins; intensities, UMAP)"
+"cell_metadata.csv, cell_qc.csv",mitocarta_intensity_fraction,share of the cell's intensity from MitoCarta3.0 proteins,per-cell QC (MitoCarta3.0 fractions)
+cell_metadata.csv,mitocarta_id_fraction,share of the cell's detected proteins that are MitoCarta3.0 proteins,per-cell QC (MitoCarta3.0 fractions)
+cell_qc.csv,"cell_id, cell_no",all 768 raw cells,"raw Spectronaut export (768 cells, PG.Quantity)"
+cell_qc.csv,retained,True if the cell has >= 100 proteins with intensity > 0 (cell filter),"raw Spectronaut export (768 cells, PG.Quantity)"
+cell_qc.csv,n_proteins_all_rows,"proteins with intensity > 0 over all 4,144 protein rows","raw Spectronaut export (768 cells, PG.Quantity)"
+cell_qc.csv,total_intensity_all_rows,"sum of intensities over all 4,144 protein rows","raw Spectronaut export (768 cells, PG.Quantity)"
+cell_qc.csv,dynamic_range_log10_all_rows,log10(max / min) of detected intensities over all rows,"raw Spectronaut export (768 cells, PG.Quantity)"
+"protein_summary.csv, intensity_matrix.csv.gz",protein,"unique protein name in the analysis (first gene symbol; duplicates suffixed _1, _2)","analysis object (712 cells x 4,054 proteins; intensities, UMAP)"
+"protein_summary.csv, intensity_matrix.csv.gz",gene_symbol,first PG.Genes entry as exported by Spectronaut,"analysis object (712 cells x 4,054 proteins; intensities, UMAP)"
+"protein_summary.csv, intensity_matrix.csv.gz",protein_group,UniProt accessions of the protein group,"analysis object (712 cells x 4,054 proteins; intensities, UMAP)"
+"protein_summary.csv, intensity_matrix.csv.gz",description,PG.ProteinDescriptions,"analysis object (712 cells x 4,054 proteins; intensities, UMAP)"
+protein_summary.csv,"n_cells, n_detected, detection_rate",cells of the cell type; cells with intensity > 0; their fraction,computed by the browser from the files above
+protein_summary.csv,median_intensity,median intensity over the detected cells of the cell type,computed by the browser from the files above
+protein_summary.csv,mean_ln1p,mean ln(1 + intensity) over all cells of the cell type (not detected = 0),computed by the browser from the files above
+protein_summary.csv,mean_z,mean of the per-protein z-scored ln(1 + intensity) (clipped at 10) over the cell type's cells,computed by the browser from the files above
+intensity_matrix.csv.gz,one column per cell_id,PG.Quantity intensity; empty = not detected,"analysis object (712 cells x 4,054 proteins; intensities, UMAP)"
+markers.csv,source,'V3 workbook' or 'added endothelial row',V3 marker workbook (Supplementary Table S2)
+markers.csv,"type, type_full",workbook cell type (short and full name),V3 marker workbook (Supplementary Table S2)
+markers.csv,"marker, workbook_position, in_matrix","marker symbol, position in its row, present among the 4,054 proteins",V3 marker workbook (Supplementary Table S2)
+build_info.json,(all),"build date, counts and the SHA256 of each data source",browser data build
