@@ -4,7 +4,7 @@ Single-cell proteomics (SCP-MS) of the total mouse kidney, as reported in the ac
 
 - Raw data: ProteomeXchange / PRIDE **PXD073729**.
 - Processed objects: Zenodo (DOI to be added on publication).
-- Code: repository to be added on publication.
+- Code: [github.com/qiwu-au/scp_mouse_kidney_dct](https://github.com/qiwu-au/scp_mouse_kidney_dct).
 
 ### Data
 
