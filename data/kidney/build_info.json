@@ -1,6 +1,6 @@
 {
   "dataset": "kidney",
-  "built_utc": "2026-11-18T20:18:51+00:00",
+  "built_utc": "2026-11-18T20:41:33+00:00",
   "built_by": "Claude Code (Anthropic)",
   "n_cells": 712,
   "n_proteins": 4054,
